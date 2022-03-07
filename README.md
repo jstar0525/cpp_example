@@ -1,2 +1,3 @@
 # cpp_example
-cpp example from SoEn
+
+### C++ coding example from [SoEn](http://soen.kr/)
