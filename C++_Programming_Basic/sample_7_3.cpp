@@ -8,17 +8,8 @@ void buy(int x)
 
 int main()
 {
-    int num;
-
-    cout << "첫 번째로 구입하는 차량의 가격은 얼마입니까?\n";
-    cin >> num;
-
-    buy(num);
-
-    cout << "두 번째로 구입하는 차량의 가격은 얼마입니까?\n";
-    cin >> num;
-
-    buy(num);
+    buy(20);
+    buy(50);
 
     return 0;
 }

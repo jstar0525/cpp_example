@@ -1,22 +1,24 @@
 #include <iostream>
 using namespace std;
 
-void buy(int x, int y)
+void buy(int x)
 {
-    cout << x << "만원 짜리, " << y << "만원 짜리 차량을 구입했습니다.\n";
+    cout << x << "만원 짜리 차량을 구입했습니다.\n";
 }
 
 int main()
 {
-    int num1, num2;
+    int num;
 
-    cout << "구입하시는 차량의 가격은 얼마입니까?\n";
-    cin >> num1;
+    cout << "첫 번째로 구입하는 차량의 가격은 얼마입니까?\n";
+    cin >> num;
 
-    cout << "구입하시는 차량의 가격은 얼마입니까?\n";
-    cin >> num2;
+    buy(num);
 
-    buy(num1, num2);
+    cout << "두 번째로 구입하는 차량의 가격은 얼마입니까?\n";
+    cin >> num;
+
+    buy(num);
 
     return 0;
 }
